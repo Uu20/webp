@@ -1,15 +1,14 @@
 html {
     font-size: 10px;
-    /* px means 'pixels': the base font size is now 10 pixels high  */
     font-family: 'Noto Sans TC', sans-serif;
     background-color: rgb(152, 74, 204);
 }
 
 body {
-    width: 600px;
+    width: 1000px;
     margin: auto;
     background-color: rgb(223, 179, 37);
-    padding: 0 300px 300px 300px;
+    padding: 0 150px 150px 150px;
     border: 5px solid black;
 }
 
@@ -25,9 +24,75 @@ img {
     margin: 0 auto;
 }
 
-p,
-li {
+p {
     font-size: 60px;
     line-height: 2;
     letter-spacing: 1px;
+}
+
+li {
+    font-size: 40px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 300px) {
+    body {
+        width: 270px;
+        padding: 0 20px 20px 20px;
+    }
+    p {
+        font-size: 35px;
+    }
+    li {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body {
+        width: 300px;
+        padding: 0 50px 50px 50px;
+    }
+    p {
+        font-size: 40px;
+    }
+    li {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 500px;
+        padding: 0 75px 75px 75px;
+    }
+    p {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        width: 700px;
+        padding: 0 100px 100px 100px;
+    }
+    p {
+        font-size: 50px;
+    }
+    li {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        width: 900px;
+    }
+    p {
+        font-size: 55px;
+    }
+    li {
+        font-size: 35px;
+    }
 }
