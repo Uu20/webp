@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        function change() {
+            var header = document.getElementById("CGU");
+            header.innerHTML = "CSIE@CGU";
+
+            var para = document.getElementById("text");
+            para.innerHTML = "怎麼那麼棒！！.";
+
+            var btn = document.createElement("BUTTON");
+            btn.innerHTML = "Try it";
+            btn.setAttribute("id", "btn");
+            document.body.appendChild(btn);
+        }
+    </script>
+
+    <title>My new Web</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>This is 20220316</h1>
+    <p>開始</p>
+    <input type="button" value="Change this document." onclick="change()">
+    <h1 id="CGU">CGU</h1>
+    <p id="text">好棒棒</p>
+
+</body>
+
+</html>
