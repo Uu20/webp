@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My new Web</title>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <script language="javascript">
+        str = "";
+
+        function showkey() {
+            asc = event.keyCode;
+            key = String.fromCharCode(asc);
+            str += key;
+            txt.innerHTML = str;
+        }
+        document.onkeypress = showkey;
+    </script>
+    <div id="txt"></div>
+</body>
+
+</html>
