@@ -1,3 +1,5 @@
+var str = '';
 document.addEventListener('keydown', e => {
-    console.log(e)
+    str += e.key;
+    document.getElementById("txt").innerHTML = str;
 })
