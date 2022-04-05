@@ -21,7 +21,7 @@ function creat_str() {
     if (str.length < num) {
         for (var i = 0; i < num - str.length; i++) {
 
-            rand = Math.floor(Math.random() * 26 + 97);
+            rand = Math.floor(Math.random() * 26 + 65);
             rstr = (String.fromCharCode(rand));
             str = rstr + str;
 
