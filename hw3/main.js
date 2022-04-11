@@ -20,16 +20,13 @@ function creat_str() {
     num = getTime() * 2.5;
     if (str.length < num) {
         for (var i = 0; i < num - str.length; i++) {
-
             rand = Math.floor(Math.random() * 26 + 65);
             rstr = (String.fromCharCode(rand));
             str = rstr + str;
-
         }
     }
     // return str;
 }
-
 
 function getTime() {
     //date. getTime = millisecond
