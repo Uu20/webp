@@ -1,0 +1,22 @@
+.login{
+    border: 5px rgb(39, 66, 222) solid;
+    width: 400px;
+    height: 400px;
+    margin-top:2%;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+    background-color:rgb(255, 255, 255);
+}
+#sigin{
+    font-size: large;
+    position:relative;
+    margin-top: 10%;
+    border: rgb(103, 233, 146) outset;
+}
+.in{
+    position: relative;
+    margin-left: auto;
+    border:solid rgb(223, 185, 14);
+}
